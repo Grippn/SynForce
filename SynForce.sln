@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ForcePad", "ForcePad\ForcePad.vcxproj", "{F13418DD-0564-4ABE-84DE-E7CCAB764AA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Columns", "Columns\Columns.vcxproj", "{A5E21D1E-B2DD-4BD4-BAF4-34938680384E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F13418DD-0564-4ABE-84DE-E7CCAB764AA1} = {F13418DD-0564-4ABE-84DE-E7CCAB764AA1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13418DD-0564-4ABE-84DE-E7CCAB764AA1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F13418DD-0564-4ABE-84DE-E7CCAB764AA1}.Debug|Win32.Build.0 = Debug|Win32
+		{F13418DD-0564-4ABE-84DE-E7CCAB764AA1}.Release|Win32.ActiveCfg = Release|Win32
+		{F13418DD-0564-4ABE-84DE-E7CCAB764AA1}.Release|Win32.Build.0 = Release|Win32
+		{A5E21D1E-B2DD-4BD4-BAF4-34938680384E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5E21D1E-B2DD-4BD4-BAF4-34938680384E}.Debug|Win32.Build.0 = Debug|Win32
+		{A5E21D1E-B2DD-4BD4-BAF4-34938680384E}.Release|Win32.ActiveCfg = Release|Win32
+		{A5E21D1E-B2DD-4BD4-BAF4-34938680384E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
